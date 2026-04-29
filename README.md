@@ -153,6 +153,7 @@ out of scope or because I decided not to pursue them, they include:
 - Draw claims (see [Draw by Fifty-Move and Threefold Repetition Rules](#draw-by-fifty-move-and-threefold-repetition-rules))
 - Draw by dead position
 - AI opponent
+- Resignation
 
 ## Retrospective
 
