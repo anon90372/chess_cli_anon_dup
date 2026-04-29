@@ -19,14 +19,24 @@ skills in:
 - Version control
 - and more...
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Retrospective](#retrospective)
+- [Contributing](#contributing)
+- [Expanding Documentation](#expanding-documentation)
+- [Acknowledgments](#acknowledgements)
+- [License](#license)
+
 ## Getting Started
 
 Assuming Ruby is installed in a supported environment:
 
-- Clone this repository onto your local machine.
-- `cd` into the cloned repo.
-- Install the necessary dependencies and Ruby version.
-- Run the main file to play.
+1) Clone this repository onto your local machine.
+2) `cd` into the cloned repo.
+3) Install the necessary dependencies and Ruby version.
+4) Run the main file to play.
 
 For example:
 
@@ -40,18 +50,29 @@ bundle exec ruby main.rb
 
 ## Features
 
+*Note*:
+If you have trouble loading any of the media in this section, try refreshing the
+page and playing the video again.
+
 ### Responsive User Interface and Display
 
 This software features a responsive user interface and display that informs the
 user with helpful feedback, validates inputs and prevents illegal moves according
 to the rules of chess.
 
+*Note*:
+As this is a command line app, the display may render differently or unexpectedly
+in various environments. You can try adjusting your terminal settings if this is
+the case. Also, it is recommended to increase your terminal font size to enlarge
+the display.
+
 [ux.webm](https://github.com/user-attachments/assets/b574d3a3-1104-45dc-b2f7-d30d7406c17d)
 
 ### Check
 
 Check the opponent by attacking their king, but leaving them with at least one
-legal move.
+legal move. You can never move into check and must escape check when your king is
+under attack.
 
 [check.webm](https://github.com/user-attachments/assets/c2f2f449-0237-4f19-8d7c-43b5c2722575)
 
@@ -106,7 +127,8 @@ Promote a pawn when moving it to its last rank.
 
 ### Double Pawn Push
 
-Push a pawn two squares forward when moving it from its home rank.
+Push a pawn two squares forward when moving it from its home rank so long as the
+way is unobstructed.
 
 [double_pawn_push.webm](https://github.com/user-attachments/assets/ccc7537a-f21b-4d47-83e6-db244edaca44)
 
@@ -164,18 +186,38 @@ proper scope control, development time can theoretically extend to infinity.
 Through plenty of struggle during development, I gained skills, experience and
 knowledge that I hope to carry with me into future projects.
 
-## Acknowledgements
-
-Thank you to the various members of The Odin Project community who supported and
-guided me during development.
-
 ## Contributing
 
 This project is not under active development and will likely not receive further
 development. That said, if you discover a bug while play-testing, detailed reports
 submitted as a GitHub issue are welcome and appreciated.
 
-## A Note About AI
+## Expanding Documentation
 
-No "generative AI" tools were used in any capacity at any point during this
-project's development.
+As mentioned in [Contributing](#contributing), I consider this project complete
+and it is unlikely to receive further development. However, after reviewing the
+chess solutions of some fellow Odinites, one thing I admire about their repos is
+the documentation explaining their process and timeline of development, as well
+as an overview of their architecture and design decisions.
+
+I did write a brief [Retrospective](#retrospective), but I would like to consider
+expanding it to discuss in more detail:
+
+- The many obstacles I faced during development and how I overcame them
+- Examples where I asked questions and implemented feedback
+- My design decisions, their implications and how I arrived to them
+- Additional lessons learned and takeaways from the project
+
+I may or may not move forward with such documentation expansion on this project,
+but it makes me inclined to maintain some sort of dev log or journal for future
+projects. All of this being said, I am a strong believer in code as documentation,
+so I hope that the codebase at least can largely speak for itself.
+
+## Acknowledgements
+
+Thank you to the various members of The Odin Project community who supported and
+guided me during development.
+
+## License
+
+This software is licensed under the GNU GPLv3. See the [full license](COPYING.txt).
