@@ -24,10 +24,8 @@ skills in:
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [Retrospective](#retrospective)
-- [Contributing](#contributing)
 - [Expanding Documentation](#expanding-documentation)
 - [Acknowledgments](#acknowledgements)
-- [License](#license)
 
 ## Getting Started
 
@@ -186,19 +184,12 @@ proper scope control, development time can theoretically extend to infinity.
 Through plenty of struggle during development, I gained skills, experience and
 knowledge that I hope to carry with me into future projects.
 
-## Contributing
-
-This project is not under active development and will likely not receive further
-development. That said, if you discover a bug while play-testing, detailed reports
-submitted as a GitHub issue are welcome and appreciated.
-
 ## Expanding Documentation
 
-As mentioned in [Contributing](#contributing), I consider this project complete
-and it is unlikely to receive further development. However, after reviewing the
-chess solutions of some fellow Odinites, one thing I admire about their repos is
-the documentation explaining their process and timeline of development, as well
-as an overview of their architecture and design decisions.
+I consider this project complete and it is unlikely to receive further development.
+However, after reviewing the chess solutions of some fellow Odinites, one thing I
+admire about their repos is the documentation explaining their process and timeline
+of development, as well as an overview of their architecture and design decisions.
 
 I did write a brief [Retrospective](#retrospective), but I would like to consider
 expanding it to discuss in more detail:
@@ -217,7 +208,3 @@ so I hope that the codebase at least can largely speak for itself.
 
 Thank you to the various members of The Odin Project community who supported and
 guided me during development.
-
-## License
-
-This software is licensed under the GNU GPLv3. See the [full license](COPYING.txt).
