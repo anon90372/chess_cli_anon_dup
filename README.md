@@ -37,6 +37,8 @@ skills in:
 - [Retrospective](#retrospective)
 - [Expanding Documentation](#expanding-documentation)
 - [Acknowledgments](#acknowledgements)
+  - [The Odin Project](#the-odin-project)
+  - [Gems Used](#gems-used)
 
 ## Getting Started
 
