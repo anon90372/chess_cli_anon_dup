@@ -23,6 +23,17 @@ skills in:
 
 - [Getting Started](#getting-started)
 - [Features](#features)
+  - [Responsive User Interface and Display](#responsive-user-interface-and-display)
+  - [Check](#check)
+  - [Checkmate](#checkmate)
+  - [Stalemate](#stalemate)
+  - [Fifty-Move and Threefold Repetition Rules](#fifty-move-and-threefold-repetition-rules)
+  - [En Passant](#en-passant)
+  - [Castling](#castling)
+  - [Promotion](#promotion)
+  - [Double Pawn Push](#double-pawn-push)
+  - [Save and Load](#save-and-load)
+  - [Features Not Included](#features-not-included)
 - [Retrospective](#retrospective)
 - [Expanding Documentation](#expanding-documentation)
 - [Acknowledgments](#acknowledgements)
@@ -88,7 +99,7 @@ legal moves.
 
 [stalemate.webm](https://github.com/user-attachments/assets/30e7e09c-0f86-496b-8947-9b16ac60cceb)
 
-### Draw by Fifty-Move and Threefold Repetition Rules
+### Fifty-Move and Threefold Repetition Rules
 
 The game draws by the fifty-move rule after fifty consecutive moves without any
 captures or pawn moves, and the game draws by the threefold repetition rule when
@@ -150,7 +161,7 @@ out of scope or because I decided not to pursue them, they include:
 
 - Time control
 - Draw offers
-- Draw claims (see [Draw by Fifty-Move and Threefold Repetition Rules](#draw-by-fifty-move-and-threefold-repetition-rules))
+- Draw claims (see [Fifty-Move and Threefold Repetition Rules](#fifty-move-and-threefold-repetition-rules))
 - Draw by dead position
 - AI opponent
 - Resignation
@@ -207,5 +218,22 @@ so I hope that the codebase at least can largely speak for itself.
 
 ## Acknowledgements
 
+### The Odin Project
+
 Thank you to the various members of The Odin Project community who supported and
 guided me during development.
+
+### Gems Used
+
+#### Linting and Formatting
+
+- [RuboCop](https://github.com/rubocop)
+
+#### Testing
+
+- [RSpec](https://github.com/rspec)
+- [SimpleCov](https://github.com/simplecov-ruby)
+
+#### Debugging
+
+- [Pry-Byebug](https://github.com/deivid-rodriguez/pry-byebug)
